@@ -1,1 +1,18 @@
-# implementations_flashlight
+Не забудем установить депенденси
+```bash
+$ pip install -r requirements.txt"
+```
+
+Сначало надо запустить mock-сервер, просто выплёвывающий команды для тестов
+
+```bash
+$ python src/mock_commands_server.py
+```
+
+
+Затем можно запускать основное приложение
+```bash
+$ python src/app.py
+```
+
+Открыв браузер, перейдя в localhost:8000 можно увидеть текущее состояние фонарика
